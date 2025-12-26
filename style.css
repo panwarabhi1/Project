@@ -377,6 +377,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 10px;
+            text-decoration: none;
         }
 
         .action-btn {
@@ -392,6 +393,7 @@
             align-items: center;
             justify-content: center;
             gap: 8px;
+            text-decoration: none;
         }
 
         .action-btn:hover {
