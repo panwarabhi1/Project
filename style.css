@@ -18,6 +18,10 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            background-image: url(./Mig_01.jpg);
+            background-position: center;
+            width: 100%;
+            height: auto;
         }
         
 
@@ -196,6 +200,7 @@
             list-style: none;
             text-decoration: none;
             padding-left: 0;
+            text-decoration: none;
         }
 
         .card-content li {
@@ -203,6 +208,7 @@
             text-decoration: none;
             padding-left: 15px;
             position: relative;
+            text-decoration: none;
         }
 
         .card-content li:before {
@@ -337,14 +343,24 @@
             gap: 10px;
             margin-bottom: 20px;
             flex-wrap: wrap;
+           
+          
         }
 
         .footer-icon {
             width: 50px;
             height: 50px;
-            background: white;
+        
             border-radius: 4px;
             font-weight: bold;
+            color: white;
+             align-content: center;
+            align-items: center;
+            font-size: 30px;
+            text-align: center;
+            background: #1a237e;
+            
+            
         }
 
         .bottom-banner {
